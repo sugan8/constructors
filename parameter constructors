@@ -1,0 +1,17 @@
+public class Student {
+    String name;
+    int age;
+
+    // Parameterized constructor
+    Student(String n, int a) {
+        name = n;
+        age = a;
+    }
+
+   
+    public static void main(String[] args) {
+        Student s1 = new Student("Alice", 20);  // 👈 passing values
+        System.out.println(s1.name);
+         System.out.println(s1.age);
+    }
+}
